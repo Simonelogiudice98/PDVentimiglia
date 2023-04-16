@@ -1,0 +1,30 @@
+
+/* Header */
+
+
+header{
+    background: rgb(84,149,74);
+    background: linear-gradient(90deg, rgba(84,149,74,1) 30%, rgba(233,221,221,1) 50%, rgba(198,16,44,0.9024859943977591) 75%);
+
+}
+
+.logoPd{
+    max-width: 7vw;
+}
+
+/*  Main */
+
+.divSindaco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sismondiniImg{
+    max-width: 10vw;
+}
+
+.divConsiglieri{
+
+    margin-top:7vh;
+}
