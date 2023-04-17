@@ -1,3 +1,12 @@
+/* general styles */
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.row{
+    margin: 0;
+}
 
 /* Header */
 
@@ -10,6 +19,24 @@ header{
 
 .logoPd{
     max-width: 7vw;
+}
+
+/* citazione */
+
+.divCitazione{
+    display: flex;
+    justify-content: center;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    
+}
+
+blockquote{
+    border: 1px solid black;
+    box-shadow: 8px 8px 8px gainsboro;
+    border-radius: 4px;
+    
+    padding:2vw;
 }
 
 /*  Main */
@@ -27,4 +54,22 @@ header{
 .divConsiglieri{
 
     margin-top:7vh;
+}
+
+.righe{
+    margin-bottom: 7vh;
+}
+
+.divColonne{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+footer{
+    background: rgb(84,149,74);
+    background: linear-gradient(90deg, rgba(84,149,74,1) 30%, rgba(233,221,221,1) 50%, rgba(198,16,44,0.9024859943977591) 75%);
+    /* padding-top: ;
+    padding-bottom: ; */
 }
