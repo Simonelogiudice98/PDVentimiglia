@@ -29,7 +29,7 @@ header{
 }
 
 .logoPd{
-    max-width: 3rem;
+    max-width: 5rem;
 }
 
 /* citazione */
@@ -52,6 +52,10 @@ blockquote{
 
 /*  Main */
 
+.carta{
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+
 .divSindaco{
     display: flex;
     flex-direction: row;
@@ -71,14 +75,11 @@ blockquote{
     margin-top:7vh;
 }
 
-.righe{
-    margin-bottom: 7vh;
-}
 
 .divColonne{
     display: flex;
     justify-content: center;
-    margin-bottom: 4vh;
+    margin-bottom: 7vh;
 }
 
 /* footer */
@@ -87,8 +88,30 @@ footer{
     background-color: #ea1a21;
 }
 
+/* icone e link  footer */
+
+.divLogoFooter{
+    display: flex;
+    align-items: center
+}
+
+.divLink{
+    display:flex;
+    align-items: center;
+}
+
+.linkFbInsta{
+    font-size:2rem;
+    margin-left:5px;
+}
+
+.facebook{
+    font-size:2rem;
+}
+
 .instagram{
     color:#a72f92;
+    font-size:2rem;
 }
 
 /* media queries */
@@ -108,7 +131,7 @@ footer{
     .divCitazione{
         max-width: 300px;
         margin: 0 auto;
-        margin-top: 4vh;
+        margin-top: 10vh;
     }
 
     .titoloLista{
@@ -116,17 +139,11 @@ footer{
     }
 }
 
-@media screen and (max-width: 500px){
-
-    /* .divTitolo{
-        max-width: 200px;
-        
-    } */
-
-    /* .titoloPd{
-        font-size: 1rem;
-        text-align: right;
-    } */
+@media screen and (max-width: 420px){
+    .titoloPd{
+        text-align: center;
+    }
+   
 }
 
 @media screen and (max-width:430px){
