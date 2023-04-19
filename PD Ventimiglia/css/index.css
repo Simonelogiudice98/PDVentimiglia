@@ -56,6 +56,11 @@ blockquote{
     box-shadow: 5px 5px 5px 5px gainsboro;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
 .divSindaco{
     display: flex;
     flex-direction: row;
@@ -90,6 +95,11 @@ footer{
 
 /* icone e link  footer */
 
+.iconPdf{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
 .divLogoFooter{
     display: flex;
     align-items: center
@@ -107,6 +117,17 @@ footer{
 
 .facebook{
     font-size:2rem;
+}
+.aLinks{
+    color: white;
+}
+
+.aFacebook:hover{
+    color: #4867aa;
+}
+
+.aInsta:hover{
+    color:#a72f92;
 }
 
 .instagram{
