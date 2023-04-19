@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Oswald&family=Poppins:wght@400;600&display=swap');
+
 /* general styles */
 *{
     margin: 0px;
@@ -7,6 +9,38 @@
 .row{
     margin: 0;
 }
+
+a{
+    color:#2a963a;
+}
+
+
+/* fonts */
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+q{
+    font-family: 'Kalam', cursive;
+}
+
+.berlinguer{
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+.linkFbInsta{
+    font-family: 'Oswald', sans-serif;
+}
+
 
 /* Header */
 
@@ -50,7 +84,14 @@ blockquote{
     padding:2vw;
 }
 
+.card-title{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
 /*  Main */
+
+
 
 .carta{
     box-shadow: 5px 5px 5px 5px gainsboro;
@@ -102,7 +143,8 @@ footer{
 
 .divLogoFooter{
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-left:3vw;
 }
 
 .divLink{
@@ -112,7 +154,7 @@ footer{
 
 .linkFbInsta{
     font-size:2rem;
-    margin-left:5px;
+    margin-left:2vw;
 }
 
 .facebook{
@@ -150,7 +192,7 @@ footer{
     }
 
     .divCitazione{
-        max-width: 300px;
+        max-width: 350px;
         margin: 0 auto;
         margin-top: 10vh;
     }
@@ -160,15 +202,26 @@ footer{
     }
 }
 
-@media screen and (max-width: 420px){
+
+@media screen and (max-width:430px){
+    .titoloLista{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 425px){
     .titoloPd{
         text-align: center;
     }
    
 }
 
-@media screen and (max-width:430px){
-    .titoloLista{
-        font-size: 1.1rem;
+@media screen and (max-width:360px){
+    .divCitazione{
+        max-width: 300px;
+    }
+
+    .citazione{
+        max-width: 225px;
     }
 }
