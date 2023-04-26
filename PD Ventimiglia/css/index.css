@@ -31,15 +31,6 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-q{
-    font-family: 'Kalam', cursive;
-}
-
-.berlinguer{
-    font-family: 'Kalam', cursive;
-    font-size: 1.2rem;
-    margin-top: 8px;
-}
 
 .linkFbInsta{
     font-family: 'Oswald', sans-serif;
@@ -70,27 +61,38 @@ header{
     max-width: 5rem;
 }
 
-/* citazione */
 
-.divCitazione{
+/* div programma */
+
+.divProgramma{
+    margin-top: 6vh;
+    margin-bottom:3vh;
+}
+
+.iconList{
+    font-size:1.4rem;
+    color:#ea1a21;
+    margin-right: 10px;
+}
+
+.testoProgramma{
+    margin: 0;
+}
+
+.divLinkIcon{
+    max-width: 350px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gainsboro;
+
+}
+
+.linkProgramma{
     display: flex;
     justify-content: center;
-    margin-top:10vh;
-    margin-bottom:10vh;
-    
-}
-
-blockquote{
-    border: 1px solid black;
-    box-shadow: 8px 8px 8px gainsboro;
-    border-radius: 4px;
-    
-    padding:2vw;
-}
-
-.card-title{
-    
-    font-family: 'Poppins', sans-serif;
+    padding: 2vw;
 }
 
 /*  Main */
@@ -131,37 +133,7 @@ blockquote{
     justify-content: center;
     margin-bottom: 7vh;
 }
-/* div programma */
 
-.divProgramma{
-    margin-bottom:5vh;
-}
-
-.iconList{
-    font-size:1.4rem;
-    color:#ea1a21;
-    margin-right: 10px;
-}
-
-.testoProgramma{
-    margin: 0;
-}
-
-.divLinkIcon{
-    max-width: 350px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    border: 1px solid gainsboro;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px gainsboro;
-
-}
-
-.linkProgramma{
-    display: flex;
-    justify-content: center;
-    padding: 2vw;
-}
 
 /* footer */
 
@@ -171,10 +143,6 @@ footer{
 
 /* icone e link  footer */
 
-.iconPdf{
-    display: inline-block;
-    font-size: 1.5rem;
-}
 
 .divLogoFooter{
     display: flex;
@@ -188,7 +156,7 @@ footer{
 }
 
 .linkFbInsta{
-    font-size:1.5rem;
+    font-size:1.2rem;
     margin-left:2vw;
 }
 
@@ -209,6 +177,18 @@ footer{
 
 .instagram{
     color:#a72f92;
+    font-size:1.5rem;
+}
+
+.indirizzoMailP{
+    color: white;
+    font-size:1.1rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left:2vw;
+    margin-bottom: 0;
+}
+
+.mailIndirizzoIcona{
     font-size:1.5rem;
 }
 
