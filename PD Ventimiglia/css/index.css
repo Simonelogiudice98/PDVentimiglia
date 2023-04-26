@@ -6,6 +6,10 @@
     padding:0px;
 }
 
+
+
+/* whitesmoke  2*/
+/* #fffaf2  3*/
 .row{
     margin: 0;
 }
@@ -127,6 +131,37 @@ blockquote{
     justify-content: center;
     margin-bottom: 7vh;
 }
+/* div programma */
+
+.divProgramma{
+    margin-bottom:5vh;
+}
+
+.iconList{
+    font-size:1.4rem;
+    color:#ea1a21;
+    margin-right: 10px;
+}
+
+.testoProgramma{
+    margin: 0;
+}
+
+.divLinkIcon{
+    max-width: 350px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gainsboro;
+
+}
+
+.linkProgramma{
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
 
 /* footer */
 
@@ -153,12 +188,12 @@ footer{
 }
 
 .linkFbInsta{
-    font-size:2rem;
+    font-size:1.5rem;
     margin-left:2vw;
 }
 
 .facebook{
-    font-size:2rem;
+    font-size:1.5rem;
 }
 .aLinks{
     color: white;
@@ -174,7 +209,7 @@ footer{
 
 .instagram{
     color:#a72f92;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 /* media queries */
